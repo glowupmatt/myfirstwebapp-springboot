@@ -6,13 +6,14 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class SayHelloController {
-    @RequestMapping("say-hello")
+    
+    @RequestMapping("/hello")
     @ResponseBody
     public String sayHello() {
         return "Hello, World!";
     }
-
-    @RequestMapping("say-hello-html")
+    
+    @RequestMapping("/hello-html")
     @ResponseBody
     public String sayHelloHtml() {
         StringBuffer sb = new StringBuffer();
@@ -26,4 +27,11 @@ public class SayHelloController {
         sb.append("</html>");
         return sb.toString();
     }
+
+        
+    @RequestMapping("/hello-jsp") 
+    public String sayHelloJsp() {
+        return "sayHello";
+    }
+    
 }
