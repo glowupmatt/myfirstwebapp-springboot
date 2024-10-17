@@ -6,5 +6,7 @@
 </head>
 <body>
     <p>This is an HTML response using JSP.</p>
+
+    <p>${name}</p>
 </body>
 </html>
