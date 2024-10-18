@@ -7,6 +7,7 @@
 <body>
 <h1>Welcome to Login page</h1>
 <form method="post">
+    <h2>${errorMessage}</h2>
     <label for="username">Name:</label>
     <input type="text" id="username" name="username" required><br><br>
     <label for="password">Password:</label>
