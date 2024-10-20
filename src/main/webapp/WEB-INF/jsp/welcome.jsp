@@ -7,7 +7,8 @@
     <title>Welcome Page</title>
   </head>
   <body>
-    <h1>Welcome to ${username} Todo List</h1>
+    <h1>Welcome ${username}</h1>
+    <hr />
     <a href="/list-todos">Click here to see your ToDos</a>
   </body>
 </html>
